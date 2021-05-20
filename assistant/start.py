@@ -16,16 +16,6 @@ from plugins import *
 
 from . import *
 
-Owner_info_msg = f"""
-**Owner** - {OWNER_NAME}
-**OwnerID** - `{OWNER_ID}`
-
-**Message Forwards** - {udB.get("PMBOT")}
-
-__Ultroid {ultroid_version}, powered by @TeamUltroid__
-"""
-
-
 @asst_cmd("start")
 async def assistant(event):
     if event.is_group and event.sender_id in sed:
