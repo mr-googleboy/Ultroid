@@ -17,6 +17,8 @@ from plugins import *
 from . import *
 
 Owner_info_msg = f"""
+**Owner** - {OWNER_NAME}
+**OwnerID** - `{OWNER_ID}`
 
 **Message Forwards** - {udB.get("PMBOT")}
 
